@@ -209,6 +209,10 @@ nav .container {
     text-align: justify;
 }
 
+.text-align-auto {
+    text-align: left;
+}
+
 .profile-pic {
     border: #000 solid 2px;
     border-radius: 50%;
@@ -404,6 +408,10 @@ section .container>* {
     height: 20px;
 }
 
+.icon-size {
+    font-size: 3rem;
+}
+
 .icon-circle {
     border-radius: 50%;
     padding: 10px;
@@ -433,9 +441,9 @@ section .container>* {
 
 .project-title {
     position: absolute;
-    bottom: 90px;
-    background-color: #585858ab;
-    color: #fff;
+    /* bottom: 90px; */
+    background-color: #ffffff50;
+    color: #000;
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
@@ -450,10 +458,11 @@ section .container>* {
 
 .project-subtitle {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 90%;
-    background-color: #585858ab;
-    color: #fff;
+    size: 14px;
+    background-color: #ffffff50;
+    color: #000;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -556,6 +565,14 @@ footer div ul li i:hover {
         height: 0;
     }
 
+    .text-align-auto {
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 2rem;
+    }
+
     section .container {
         grid-template-columns: 1fr;
     }
@@ -592,6 +609,10 @@ footer div ul li i:hover {
         width: 100%;
     }
 
+    .project-subtitle {
+        bottom: 60px;
+    }
+
     .text {
         font-size: .8rem;
     }
@@ -605,6 +626,14 @@ footer div ul li i:hover {
 @media(max-width: 600px) {
     header {
         height: 0;
+    }
+
+    .text-align-auto {
+        text-align: center;
+    }
+
+    .icon-size {
+        font-size: 2rem;
     }
 
     .big-title {
@@ -638,6 +667,10 @@ footer div ul li i:hover {
 
     .about-img {
         width: 100%;
+    }
+
+    .project-subtitle {
+        bottom: 60px;
     }
 
     .text {

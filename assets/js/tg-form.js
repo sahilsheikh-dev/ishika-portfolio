@@ -42,7 +42,7 @@ document.querySelector("form.pure-form")
             // return false;
         } else {
             var send_message =
-                "Hey Mustaquim, you have a contact detail from a new client!!!%0A%0A" +
+                "Hey Ishika, you have a contact detail from a new client!!!%0A%0A" +
                 "<b>Name:</b> " +
                 nameInput +
                 "%0A<b>Email:</b> " +
@@ -55,8 +55,8 @@ document.querySelector("form.pure-form")
                 time;
 
             // declearing bot token and chat id
-            var bot_token = "paste-bot-token"; // bot token
-            var chat_id = paste-chat-id; // my chat id
+            var bot_token = "5315392418:AAGubGhAB1y0Hy5jE8wwwsDzYTgS8HbflXs"; // bot token
+            var chat_id = 788765432; // my chat id
 
             // creating url using bot token, chat id and message
             var url =
